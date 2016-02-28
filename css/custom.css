@@ -9,6 +9,7 @@ body{
 {
     background-color: #F3F3E6;
     border-color: #F3F3E6;
+	
 }
 /*colour of left hand text on navbar*/
 .navbar-new .navbar-brand,
@@ -47,13 +48,27 @@ body{
     border-color: #3e3328;
 }
 
-.navbar-new .navbar-toggle:hover,
+.navbar-new .navbar-toggle:hover
+{
+    background-color: #FFF;
+}
 .navbar-new .navbar-toggle:focus
  {
-    background-color: #3e3328;
+    background-color:#FFF;
 }
-
 .navbar-new .navbar-toggle .icon-bar 
 {
     background-color: #3e3328;
 }
+
+.social .fa-facebook-official:hover 
+{
+    color: #4060A5;
+}
+.social .fa-pinterest:hover 
+{
+    color: red;
+}
+
+
+
